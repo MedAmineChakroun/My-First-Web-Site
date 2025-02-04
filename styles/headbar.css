@@ -1,0 +1,70 @@
+.headbar{
+    display: grid;
+    grid-template-columns: 200px 1fr 200px; 
+    background-color: black;
+    align-items: center;
+    height: 90px;
+    box-shadow: 0px 0px 20px -10px rgb(255, 255, 255);
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top :0px;
+    z-index: 100;
+    border-bottom: 1px solid black;
+}
+.home-icon,.profil-icon{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    transition-duration: 0.25s;
+}
+.home-icon:hover{
+  
+    transform: scale(1.15);
+}
+.profil-icon:hover{
+  
+    transform: scale(1.15);
+}
+.navigation {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1.1fr 1fr 1fr 1fr;
+   text-align: center;
+   margin-left: 50px;
+   list-style: none;
+}
+
+li{
+
+    margin-top: 10px;
+}
+li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Roboto , Arial;
+    border-right: 1px solid white;
+    padding-right: 40px;
+    transition: text-shadow 0.3s;
+    transition-duration: 0.15s;
+    
+}
+
+
+.icons{
+    width: 50px;
+    height: 50px;
+    padding-top: 10px;
+    
+    border-radius: 30px;
+}
+li a:hover{
+    text-shadow: 0px 6px 15px  rgb(255, 255, 255); 
+    transform: scale(1.25)
+}
+.kids a:hover{
+    text-shadow: 0px 10px 18px  rgb(255, 255, 255);
+    transform: scale(1.25)
+}
+
+

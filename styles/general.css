@@ -1,0 +1,94 @@
+body{
+   height: 1300px;
+   margin-top: 90px;
+   margin-left: 180px;
+   
+}
+.audio{
+   position: fixed;
+   right: -250px;
+   top: 110px;
+   
+   
+}
+audio::-webkit-media-controls-panel{
+   background-color: black;
+}
+audio::-webkit-media-controls-play-button{
+   background-color: white;
+   border-radius: 50%;
+}
+audio::-webkit-media-controls-play-button:hover{
+   transform: scale(1.15);
+}
+
+#profil{
+   height: 650px;
+}
+#home{
+   height: 600px;
+   width: 900px;
+}
+#myVideo {
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   width: 1750px;
+ }
+
+#adventure{
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   
+   width: 1900px;
+   height: 100%;
+}
+#action{
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   width: 1900px;
+   height: 100%;
+}
+#horor{
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   width: 1900px;
+   height: 100%;
+}
+#science{
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   width: 1900px;
+   height: 100%;
+}
+#romantic{
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   width: 1900px;
+   height: 100%;
+}
+#documentery{
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   width: 1900px;
+   height: 100%;
+}
+#kids{
+   position: fixed;
+   z-index: -1;
+   left: -180px;
+   width: 1900px;
+   height: 100%;
+}
+
+
+
+
+
+

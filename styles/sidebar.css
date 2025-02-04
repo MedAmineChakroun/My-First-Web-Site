@@ -1,0 +1,31 @@
+.sidebar{
+    font-family: Roboto,Arial;
+    margin-top: 150px;
+    margin-left: 80px;
+    height: 300px;
+    padding-bottom:500 px;
+    display: grid;
+    grid-template-rows: auto;
+    justify-content: space-between;
+    width: 180px;
+    text-align: center;
+    position: fixed;
+    left:0;
+    top: 90;
+    z-index: 100;
+    color: rgb(40, 38, 38);
+    font-weight: bold;
+    font-size: 18px;
+}
+td{
+    padding-top: 20px;
+}
+.sidebar-element{
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+.sidebar-element:hover{
+    text-shadow: 2px 5px  5px black;
+    color: rgb(255, 255, 255);
+}
